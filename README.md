@@ -73,3 +73,4 @@ python nova.py --ast file.nova
 python nova.py --check file.nova
 
 Nova source files use the .nova extension.
+old v1 : https://github.com/logicnestxvoidlure/nova-v1
