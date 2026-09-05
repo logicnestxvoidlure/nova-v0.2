@@ -1,0 +1,14 @@
+class Person {
+    init(name, age) {
+        self.name = name
+        self.age = age
+    }
+
+    greet() {
+        return "Hi, I am " + self.name
+    }
+}
+
+let p = Person("Nova", 20)
+say p.greet()
+say p.age

@@ -1,0 +1,17 @@
+fn fib(n) {
+    if n <= 1 {
+        return n
+    }
+    return fib(n - 1) + fib(n - 2)
+}
+
+let values = [for x in range(10) => fib(x)]
+say values
+
+try {
+    throw "Nova exception"
+} catch err {
+    say "caught: " + err
+} finally {
+    say "finished"
+}

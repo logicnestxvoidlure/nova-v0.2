@@ -1,0 +1,12 @@
+let name = "Nova"
+let numbers = [1, 2, 3, 4, 5]
+say "Hello, {name}!"
+say "sum = {sum(numbers)}"
+
+fn square(x) {
+    return x * x
+}
+
+for n in numbers {
+    say square(n)
+}
