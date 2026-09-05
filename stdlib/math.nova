@@ -1,0 +1,16 @@
+fn clamp(value, low, high) {
+    if value < low {
+        return low
+    }
+    if value > high {
+        return high
+    }
+    return value
+}
+
+fn average(items) {
+    if len(items) == 0 {
+        return 0
+    }
+    return sum(items) / len(items)
+}
